@@ -4,7 +4,7 @@
 sudo apt update && sudo apt upgrade -y
 
 # Install essential packages
-sudo apt install -y zsh vim neovim curl neofetch qt5-style-kvantum
+sudo apt install -y zsh vim neovim curl neofetch qt5-style-kvantum python3-pip pipx
 
 # Install fonts (Mononoki for Nerd Fonts)
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Mononoki.zip
