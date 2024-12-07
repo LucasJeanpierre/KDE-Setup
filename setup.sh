@@ -42,4 +42,4 @@ pipx install exegol
 pipx ensurepath
 echo "alias exegol='sudo -E $(which exegol)'" >> ~/.zshrc
 source ~/.zshrc
-~/.local/bin/exegol install
+sudo ~/.local/bin/exegol install
