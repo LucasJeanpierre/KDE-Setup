@@ -23,3 +23,4 @@ mkdir -p ~/.config && touch ~/.config/starship.toml
 source .zshrc
 
 # https://store.kde.org/p/1905813
+# latte dock : edna
