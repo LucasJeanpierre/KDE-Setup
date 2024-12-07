@@ -2,7 +2,7 @@ sudo apt update
 sudo apt upgrade
 
 
-sudo apt install zsh vim neovim curl neofetch qt5-style-kvantum
+sudo apt install zsh vim neovim curl neofetch qt5-style-kvantum latte-dock
 
 
 # font
