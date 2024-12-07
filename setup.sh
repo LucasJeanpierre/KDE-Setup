@@ -6,10 +6,10 @@ sudo apt install zsh vim neovim curl neofetch qt5-style-kvantum latte-dock
 
 
 # font
-curl https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Mononoki.zip
-unzip Mononoki.zip
-mkdir /usr/share/fonts/mononoki
-mv Mononoki* /usr/share/fonts/mononoki/
+curl -O https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Mononoki.zip
+sudo unzip Mononoki.zip
+sudo mkdir /usr/share/fonts/mononoki
+sudo mv Mononoki* /usr/share/fonts/mononoki/
 fc-cache
 
 
