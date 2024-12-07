@@ -37,6 +37,12 @@ echo \
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
+# VSCode install
+wget -O code.deb https://code.visualstudio.com/sha/download\?build\=stable\&os\=linux-deb-x64
+sudo dpkg -i code.deb
+rm code.deb
+
+
 # Exegol install
 pipx install exegol
 pipx ensurepath
