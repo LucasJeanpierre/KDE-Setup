@@ -16,6 +16,6 @@ fc-cache
 #starship
 curl -sS https://starship.rs/install.sh | sh
 
-echo "eval \"$(starship init zsh)\"" >> .zshrc
+echo 'eval "$(starship init zsh)"' >> .zshrc
 mkdir -p ~/.config && touch ~/.config/starship.toml
 source .zshrc
