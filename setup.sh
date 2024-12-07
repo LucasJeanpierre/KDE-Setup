@@ -10,8 +10,10 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Mononoki.z
 sudo unzip Mononoki.zip
 sudo mkdir /usr/share/fonts/mononoki
 sudo mv Mononoki* /usr/share/fonts/mononoki/
+cd /usr/share/fonts/mononoki
 fc-cache
 
+cd ~
 
 #starship
 curl -sS https://starship.rs/install.sh | sh
